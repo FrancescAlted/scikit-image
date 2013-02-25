@@ -1,7 +1,7 @@
 __all__ = ['convex_hull_image']
 
 import numpy as np
-from ._pnpoly import grid_points_inside_poly
+from .pnpoly import grid_points_inside_poly
 from ._convex_hull import possible_hull
 
 

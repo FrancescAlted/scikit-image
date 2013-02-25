@@ -37,9 +37,9 @@ Library:
         skimage.feature, skimage.filter, skimage.graph, skimage.io,
         skimage.io._plugins, skimage.measure, skimage.morphology,
         skimage.scripts, skimage.segmentation, skimage.transform, skimage.util
-    Extension: skimage.morphology._pnpoly
+    Extension: skimage.morphology.pnpoly
         Sources:
-            skimage/morphology/_pnpoly.pyx
+            skimage/morphology/pnpoly.pyx
     Extension: skimage.feature._template
         Sources:
             skimage/feature/_template.pyx

@@ -1,8 +1,8 @@
 import numpy as np
 from numpy.testing import assert_array_equal
 
-from skimage.morphology._pnpoly import points_inside_poly, \
-                                       grid_points_inside_poly
+from skimage.morphology.pnpoly import (points_inside_poly,
+                                       grid_points_inside_poly)
 
 
 class test_npnpoly():
